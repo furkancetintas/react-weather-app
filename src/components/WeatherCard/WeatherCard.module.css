@@ -1,0 +1,21 @@
+.cardItem {
+    position: relative;
+    background-color: #F0F5F9;
+    width: 90px;
+    height: 115px;
+    border: 1px solid #52616bcc;
+    border-radius: 1em;
+    transition: 0.4s;
+}
+
+.cardItem:hover {
+    cursor: pointer;
+    background-color: #fff;
+    transform: scale(1.02);
+}
+
+.weatherIcon {
+    height: 45px;
+    width: 45px;
+    transition: 0.4s;
+}
